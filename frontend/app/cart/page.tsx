@@ -70,12 +70,12 @@ export default function CartPage() {
                       <p style={{ color: "#666", margin: "5px 0" }}>
                         ₹{item.price.toLocaleString()}
                       </p>
-                      <span>
-                        <button onClick={() => updateQuantity(item.id, -1)}>
+                      <span style={{display:'flex', gap:'8px'}}>
+                        <button style={{backgroundColor:'#dc143c', border:'1px solid black', borderRadius:'50%', padding:'0 8px'}} onClick={() => updateQuantity(item.id, -1)}>
                           -
                         </button>
-                        {item.quantity}
-                        <button onClick={() => updateQuantity(item.id, +1)}>
+                         {item.quantity }
+                        <button style={{backgroundColor:'crimson', border:'1px solid black', borderRadius:'50%', padding:'0 6px'}}  onClick={() => updateQuantity(item.id, +1)}>
                           +
                         </button>
                       </span>
