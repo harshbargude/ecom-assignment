@@ -25,7 +25,7 @@ A professional MERN stack e-commerce frontend built with **Next.js**, **TypeScri
 
    ```bash
    git clone [[https://github.com/YOUR_USERNAME/ecom-assignment.git](https://github.com/YOUR_USERNAME/ecom-assignment.git)
-   cd ecom-assignment.git
+   cd ecom-assignment
    ```
 
 2. **Setup Backend**:
