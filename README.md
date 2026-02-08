@@ -24,8 +24,8 @@ A professional MERN stack e-commerce frontend built with **Next.js**, **TypeScri
 1. **Clone the repository**:
 
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/naksh-jewels-assignment.git](https://github.com/YOUR_USERNAME/naksh-jewels-assignment.git)
-   cd naksh-jewels-assignment
+   git clone [[https://github.com/YOUR_USERNAME/ecom-assignment.git](https://github.com/YOUR_USERNAME/ecom-assignment.git)
+   cd ecom-assignment.git
    ```
 
 2. **Setup Backend**:
@@ -50,7 +50,7 @@ The application is fully containerized to ensure environment parity.
 - Docker Desktop installed.
 
 ### Run the Application
-From the root directory (`naksh-assignment`), run:
+From the root directory (`ecom assignment`), run:
 ```bash
 docker-compose up --build
 ```
