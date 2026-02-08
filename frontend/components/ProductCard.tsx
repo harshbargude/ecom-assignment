@@ -10,7 +10,7 @@ interface ProductCardProp {
 const ProductCard: React.FC<ProductCardProp> = ({ product }) => {
 
   const {addToCart} = useCart();
-  
+
   return (
     <div
       style={{
@@ -39,7 +39,7 @@ const ProductCard: React.FC<ProductCardProp> = ({ product }) => {
           fontSize: "1.5rem",
         }}
       >
-        {product.name.length < 17 ? product.name : product.name.slice(0,7)}
+        {product.name}
       </h3>
       <div
         style={{
