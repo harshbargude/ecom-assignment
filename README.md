@@ -17,6 +17,7 @@ A professional MERN stack e-commerce frontend built with **Next.js**, **TypeScri
 - **Styling**: Vanilla CSS (Modular).
 - **Backend**: Node.js, Express (connected via REST API).
 - **Tools**: Git/GitHub, NVM, Webhint.
+- **DevOps**: Docker, Docker Compose, NVM.
 
 ## ⚙️ Installation & Setup
 
@@ -41,3 +42,22 @@ A professional MERN stack e-commerce frontend built with **Next.js**, **TypeScri
     npm run dev
     ```
 4. **Open the app**: Navigate to http://localhost:3000
+
+## 🐳 Docker Setup
+The application is fully containerized to ensure environment parity.
+
+### Prerequisites
+- Docker Desktop installed.
+
+### Run the Application
+From the root directory (`naksh-assignment`), run:
+```bash
+docker-compose up --build
+```
+
+## Key Technical Decisions & Problem Solving
+**Environment Stability**: Utilized NVM to switch to Node v20 LTS after encountering SSL/TLS conflicts on newer Node versions.
+
+**Docker Optimization**: Switched from alpine to slim images for the frontend to provide the necessary glibc libraries required by the Next.js SWC compiler.
+
+**Build Strategy**: Implemented a Pre-built Image strategy for the Docker container to bypass local OpenSSL cipher errors (ERR_SSL_CIPHER_OPERATION_FAILED), ensuring a stable and working deployment.
