@@ -1,0 +1,43 @@
+# E-Commerce Module
+
+A professional MERN stack e-commerce frontend built with **Next.js**, **TypeScript**, and **React**. This project features a responsive product listing, a global shopping cart system, and persistent storage.
+
+## Features
+
+- **Product Grid**: Responsive layout using CSS Grid.
+- **Global Cart Management**: Built using React **Context API**.
+- **Persistent Cart**: Items stay in the cart even after page refresh using **localStorage**.
+- **Modern Tech Stack**: Implemented with **Async/Await** for clean API handling.
+- **Environment Stability**: Managed Node versions using **NVM** to ensure LTS compatibility.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js (App Router), TypeScript, React.
+- **State Management**: React Context API.
+- **Styling**: Vanilla CSS (Modular).
+- **Backend**: Node.js, Express (connected via REST API).
+- **Tools**: Git/GitHub, NVM, Webhint.
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/naksh-jewels-assignment.git](https://github.com/YOUR_USERNAME/naksh-jewels-assignment.git)
+   cd naksh-jewels-assignment
+   ```
+
+2. **Setup Backend**:
+    ```bash   
+    # Navigate to your backend folder
+    npm install
+    node server.js
+    ```
+3. **Setup Frontend**:
+
+    ```bash
+    cd frontend
+    npm install --legacy-peer-deps
+    npm run dev
+    ```
+4. **Open the app**: Navigate to http://localhost:3000
